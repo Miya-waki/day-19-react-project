@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="bg-danger">
+      <MyComponent />
     </div>
   );
 }
 
-export default App;
+function MyComponent() {
+  return (
+    <div>
+      <h1>Learning interpolation</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ex
+        repudiandae optio alias, autem doloremque sunt tenetur deleniti, maxime
+        explicabo dolorem laborum? Sapiente amet deleniti voluptatibus magnam!
+        Tempore, doloremque. Corporis?
+      </p>
+    </div>
+  );
+}
