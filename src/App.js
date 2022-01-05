@@ -1,8 +1,16 @@
+export default function App(){
+  return (
+    <div>
 
+      <MyComoponent/>
+    </div>
+  );
+}
 
 
 function MyComoponent(){
   const id =100;
+  const background ="bg-danger"
   return (
     <div>
       <h1>Interpolation{id}</h1>
