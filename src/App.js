@@ -7,15 +7,12 @@ export default function App() {
 }
 
 function MyComponent() {
+  let count =100;
   return (
     <div>
-      <h1 className="bg-primary">My component prpgram</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ipsa
-        corporis magni voluptas exercitationem veniam illum, impedit nihil ad
-        consectetur atque quisquam quae voluptates excepturi? Et dolor hic optio
-        dolorem?
-      </p>
+      <h1>interpolation {count}</h1>
+      <h1>interpolation {count +100}</h1>
+     
     </div>
   );
 }
