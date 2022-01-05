@@ -1,21 +1,15 @@
-export default function App() {
-  return (
-    <div className="bg-danger">
-      <MyComponent />
-    </div>
-  );
-}
 
-function MyComponent() {
+
+
+function MyComoponent(){
+  const id =100;
   return (
     <div>
-      <h1>Learning interpolation</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ex
-        repudiandae optio alias, autem doloremque sunt tenetur deleniti, maxime
-        explicabo dolorem laborum? Sapiente amet deleniti voluptatibus magnam!
-        Tempore, doloremque. Corporis?
-      </p>
+      <h1>Interpolation{id}</h1>
+      <h1>Interpolation{id+100}</h1>
+
+      <h1 id="1">Interpolation{id}</h1>
+      <h1 id={id}>Interpolation</h1>
     </div>
-  );
+  )
 }
